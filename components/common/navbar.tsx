@@ -1,7 +1,12 @@
+import Link from "next/link";
+
 export default function Navbar() {
     return (
         <nav>
-            <h1 className="text-2xl font-bold">Projet Bible</h1>
+            <p>Navbar</p>
+            <Link href='/auth/register/'>
+                S'inscrire
+            </Link>
         </nav>
     );
 }
