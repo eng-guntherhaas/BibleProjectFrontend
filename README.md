@@ -1,2 +1,18 @@
-Frontend pour le Projet Bible. Le projet est un site qui consomme une API avec la Bible catholique, l'utilisateur peut voir des versets aléatoires de la Bible et rechercher n'importe quel verset particulier. L'utilisateur peut également sauvegarder des versets dans ses "favoris". L'utilisateur peut s'enregistrer par email ou par Google OAuth2 et reçoit un email de confirmation.
+# Projet Bible
 
+Projet Bible est un site web permettant aux utilisateurs de consulter des versets aléatoires de la Bible catholique, de rechercher des versets spécifiques et de sauvegarder leurs versets préférés dans leurs favoris. Le projet utilise une API pour fournir les données bibliques et offre une expérience utilisateur simple et intuitive.
+
+## Fonctionnalités
+
+- Affichage de versets aléatoires de la Bible
+- Recherche de versets par référence ou contenu
+- Sauvegarde de versets dans la liste des favoris
+- Authentification des utilisateurs par email ou Google OAuth2
+- Envoi d'email de confirmation lors de l'inscription
+
+## Technologies utilisées
+
+- Frontend : HTML, CSS, JavaScript (ReactJS)
+- Backend : API (Java, Spring Boot)
+- Authentification : OAuth2 (Google) et/ou email
+- Base de données (PostgreSQL)
